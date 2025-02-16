@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transform: translate(50%,50%);
+}
+.container{
+    border: 1px;
+    background-color:#50445f ;
+    width: 500px;
+    height: auto;
+}
+.header{
+    display: flex;
+    justify-content:baseline ;
+    margin-left: 50px;   
+    align-items: center; 
+}
+button{
+    background-color: white;
+    padding: 15px;
+    font-size: 8px;
+    font-weight: 400px;
+    margin-left:50px ;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.email{
+    margin: 25px;
+}
+.mess{
+    margin-left: 50px;
+}
+.mess textarea{
+    width: 80%;
+    height: 150px;
+    margin-top: 10px;
+}
